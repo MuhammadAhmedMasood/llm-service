@@ -10,7 +10,9 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["http://localhost:3000",
+                  https://llm-service-ui-ahmed.vercel.app/
+    ],
     allow_credentials=True,
     allow_methods=["POST","GET"],
     allow_headers=["*"],
