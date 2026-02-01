@@ -1,0 +1,6 @@
+Summarise the following text accurately and concisely.
+
+Text:
+{{input}}
+
+Summary:

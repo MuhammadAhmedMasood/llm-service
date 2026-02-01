@@ -1,0 +1,9 @@
+Classify the following text into ONE of the provided labels.
+
+Text:
+{{input}}
+
+Labels:
+{{labels}}
+
+Return only the label.
